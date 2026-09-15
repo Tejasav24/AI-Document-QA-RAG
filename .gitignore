@@ -1,4 +1,35 @@
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
 .env
-.ipynb_checkpoints
-*.pyc
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Model / vector-store artifacts
+*.faiss
+*.index
+*.pkl
+*.pickle
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
